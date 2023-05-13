@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Practicas</string>
+    <string name="register">Registrar</string>
+    <string name="search">Buscar</string>
+    <string name="new_group">Nuevo Grupo</string>
+    <string name="whatsapp_web">Whatsapp Web</string>
+    <string name="highlighted_messages">Mensajes destacados</string>
+    <string name="settings">Ajustes</string>
+    <string name="call">Llamar</string>
+    <string name="message">Mensaje</string>
+    <string name="menu_calculator">Calculadora</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_notice">Noticias</string>
+    <string name="menu_curse">Cursos</string>
+    <string name="menu_teachers">Profesores</string>
+    <string name="menu_students">Estudiantes</string>
+    <string name="menu_notes">Notas</string>
+    <string name="menu_contact">Contáctanos</string>
+    <string name="menu_book">Libro de reclamaciones</string>
+    <string name="menu_comunication">Comunicaciones</string>
+
+    <string-array name="roles">
+        <item>Estudiante</item>
+        <item>Estudiante PFR</item>
+        <item>Asesor</item>
+    </string-array>
+
+    <string-array name="sede_data">
+        <item>Arequipa</item>
+        <item>Trujillo</item>
+        <item>Lima</item>
+    </string-array>
+
+    <string-array name="carrera_data">
+        <item>Diseño soft.</item>
+        <item>Produccion</item>
+        <item>Topografia</item>
+    </string-array>
+</resources>

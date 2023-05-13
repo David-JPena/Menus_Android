@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/itemRegister"
+        android:icon="@drawable/baseline_add_24"
+        android:title="@string/register"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/itemSearch"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/new_group"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/new_group" />
+
+    <item
+        android:id="@+id/whatsapp_web"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/whatsapp_web" />
+
+    <item
+        android:id="@+id/highlighted_messages"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/highlighted_messages" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/baseline_search_24"
+        android:title="@string/settings" />
+
+</menu>

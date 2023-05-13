@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notices"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="@string/menu_notice" />
+        <item
+            android:id="@+id/nav_curse"
+            android:icon="@drawable/baseline_menu_book_24"
+            android:title="@string/menu_curse" />
+        <item
+            android:id="@+id/nav_teachers"
+            android:icon="@drawable/baseline_supervised_user_circle_24"
+            android:title="@string/menu_teachers"
+            />
+        <item
+            android:id="@+id/nav_students"
+            android:icon="@drawable/baseline_supervised_user_circle_24"
+            android:title="@string/menu_students"/>
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/baseline_note_add_24"
+            android:title="@string/menu_notes" />
+
+    </group>
+    <group android:checkableBehavior="single">
+
+        <menu
+            android:title="@string/menu_comunication">
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/baseline_help_24"
+                android:title="@string/menu_contact"/>
+            <item
+                android:id="@+id/nav_book"
+                android:icon="@drawable/baseline_help_24"
+                android:title="@string/menu_book" />
+
+        </menu>
+
+    </group>
+</menu>
